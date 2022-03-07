@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 10%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="banner-pasteleria-05242010.jpg">
+        <h2>Pasteleria</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Precios.html">Precios</a></li>
+                <li><a href="NuevoPedido.html">Nuevo Pedido</a></li>
+                <li><a href="Inventario.html">Inventario</a></li>
+                <li><a href="Pedidos.html">Lista de Pedidos</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Inicio</h1>
+            <p>Ven y prueba los mejores pasteles</p>
+            Dirección: Calle de la Soledad # 402 Colonia Centro, Hermosillo Sonora <br>
+            Teléfono: 800123456<br>
+            horarios de atención: de 10:00 AM a 8:00PM
+        </article>
+    </section>
+
+    <footer>
+        <p>Pasteleria 2022</p>
+    </footer>
+
+</body>
+
+</html>
