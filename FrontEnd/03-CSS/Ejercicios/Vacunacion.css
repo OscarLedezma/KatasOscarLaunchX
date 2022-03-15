@@ -1,0 +1,37 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.logo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.imagen1 {
+    height: 600px;
+    background: #aaa;
+}
+
+.imagen2 {
+    height: 650px;
+    background: #aaa;
+}
+.imagen3 {
+    height: 500px;
+    background: #aaa;
+}
+.pSchedule{
+   
+    height: 100px;
+    width: 800px;
+    position: absolute;
+}
+
+.scheduleRow{
+    
+    height: 100px;
+    width: 800px;
+    position: absolute;
+
+}
